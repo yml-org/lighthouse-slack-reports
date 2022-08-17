@@ -1,2 +1,2 @@
 # lighthouse-slack-reports
-Run lighthouse on a URL(s), send the report to a slack channel
+Runs lighthouse on a URL(s), and sends the report to a slack channel

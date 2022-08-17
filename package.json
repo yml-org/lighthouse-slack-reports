@@ -1,0 +1,26 @@
+{
+  "name": "lighthouse-slack-reports",
+  "version": "1.0.0",
+  "description": "Runs lighthouse on a URL(s), and sends the report to a slack channel",
+  "main": "lighthouserc.js",
+  "scripts": {
+    "compile": "npx tsc .\\lighthouserc.ts && npx tsc .\\src\\profile-and-report.ts",
+    "generate-report": "node src/profile-and-report.js",
+    "report": "npm run compile && npm run generate-report",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShashankaNataraj/lighthouse-slack-reports.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShashankaNataraj/lighthouse-slack-reports/issues"
+  },
+  "homepage": "https://github.com/ShashankaNataraj/lighthouse-slack-reports#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "typescript": "^4.7.4"
+  }
+}
