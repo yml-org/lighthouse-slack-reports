@@ -1,6 +1,6 @@
 module.exports = {
 	slackSigningSecret: 'TWeVjcswsbSvv9Cg9wNhmhE7',
-	slackWebhookUrl: 'https://hooks.slack.com/services/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',
+	slackWebhookUrl: 'https://hooks.slack.com/services/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',
 	urlsToProfile: [
 		'https://develop.d337wy32ueusth.amplifyapp.com/',
 		'https://develop.d337wy32ueusth.amplifyapp.com/work',
