@@ -1,3 +1,4 @@
 node_modules
 **/**/*.js
 lighthouserc.ts
+lighthouserc.js
