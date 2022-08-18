@@ -3,3 +3,4 @@ node_modules
 lighthouserc.ts
 lighthouserc.js
 .env
+.srcprofile-and-report.ts 
