@@ -1,7 +1,14 @@
 module.exports = {
-	slackWebhookUrl: '',
+	slackSigningSecret: 'TWeVjcswsbSvv9Cg9wNhmhE7',
+	slackWebhookUrl: 'https://hooks.slack.com/services/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',
 	urlsToProfile: [
-		'https://google.com',
-		'https://microsoft.com'
+		'https://develop.d337wy32ueusth.amplifyapp.com/',
+		'https://develop.d337wy32ueusth.amplifyapp.com/work',
+		'https://develop.d337wy32ueusth.amplifyapp.com/about',
+		'https://develop.d337wy32ueusth.amplifyapp.com/expertise',
+		'https://develop.d337wy32ueusth.amplifyapp.com/impact',
+		'https://develop.d337wy32ueusth.amplifyapp.com/contact',
+		'https://develop.d337wy32ueusth.amplifyapp.com/careers',
+		'https://develop.d337wy32ueusth.amplifyapp.com/labs'
 	]
-}
+};
